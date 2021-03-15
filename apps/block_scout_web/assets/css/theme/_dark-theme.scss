@@ -1029,14 +1029,10 @@ $dark-stakes-banned-background: #3e314c;
 		color: #fff;
 	}
 
-	.bs-label.omni {
-		background: #6ca1e2
+	.bs-label.omni,
+	.bs-label.destination-eth {
+		background-color: $labels-dark;
 	}
-
-    .bs-label.validator,
-    .bs-label.destination-eth {
-        background-color: $labels-dark;
-    }
 
 	.dropdown-item {
 		.external-link-icon {

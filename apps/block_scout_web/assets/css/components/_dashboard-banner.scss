@@ -12,7 +12,7 @@ $dashboard-stats-item-value-color: rgba(#fff, 0.8) !default;
 $dashboard-banner-chart-legend-label-color: #fff !default;
 $dashboard-banner-chart-legend-value-color: $dashboard-stats-item-value-color !default;
 $dashboard-stats-item-border-color: $primary !default;
-$dashboard-banner-network-plain-container-height: 205px;
+$dashboard-banner-network-plain-container-height: 150px;
 $dashboard-banner-chart-axis-font-color: $dashboard-stats-item-value-color !default;
 
 .dashboard-banner-container {
@@ -36,9 +36,9 @@ $dashboard-banner-chart-axis-font-color: $dashboard-stats-item-value-color !defa
   position: relative;
   z-index: 9;
 
-  @include media-breakpoint-between(lg, xl) {
-    height: 249px;
-  }
+  // @include media-breakpoint-between(lg, xl) {
+  //  height: 249px;
+  // }
 
   @include media-breakpoint-down(sm) {
     flex-direction: column;
